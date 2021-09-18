@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+body{
+    background-color:lightgray;
+}
+
+#reportsSec{
+    font-weight: 400;
+    line-height: 130%;
+}
+.mainHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-outline-primary{
+    width: 300px !important;
+}
+
+.mainHead a{
+    color: black;
+}
+
+.header{
+    height: 35px;
+}
+
+
+

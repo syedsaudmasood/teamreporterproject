@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:lightgray;
+}
+.mainDive{
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+
+.innerDiv{
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.signupBtn{
+    border: 1px solid rgb(172, 172, 172);
+}

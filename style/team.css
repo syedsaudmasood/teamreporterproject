@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-transform: uppercase;
+    user-select: none;
+    text-decoration: none !important;
+
+}
+body{
+    background-color:lightgray;
+}
+#mainHead{
+    text-align: center;
+    margin-top: 12px;
+}
+
+#teamMembers{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: center;
+    margin-top: 10px;
+    height: auto;
+}
+
+#teamMembers li{
+    padding: 4px 10px;
+    background-color: rgb(255, 255, 255);
+    height: 39px;
+    margin: 4px 10px;
+    color: rgb(82, 82, 82);
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    font-weight: 500;
+}
+
+.bi-x-circle-fill{
+cursor: pointer;
+padding: 4px 7px;
+}
+#questionUl{
+    min-height: 240px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#questionUl li{
+    border: none;
+    border-bottom: 1px solid #ccc !important;
+    margin: 10px 10px;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainHead a{
+    color: black;
+}
+
+.btn-outline-primary{
+    width: 300px !important;
+}
+
+.header{
+    cursor: pointer;
+    height: 35px;
+}
+
+
+#questions{
+    margin-top: 10px;
+}
+
+.bi-trash{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+.addedMembers {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.addedMembers li {
+    padding: 5px 18px;
+    margin: 4px 10px;
+    border-radius: 16px;
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(36, 124, 14);
+}
+
+
+
+.membersUl{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.membersUl li{
+    padding: 5px 18px;
+    border: 1px solid #ccc;
+    margin: 4px 10px;
+    border-radius: 16px;
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.membersUl li:hover{
+    background-color: rgb(44, 44, 44);
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    border: 1px solid  rgb(56, 56, 56);
+}
+
+#teamMembers li{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.bi-x-circle-fill {
+    margin-right: -29px;
+}
+
+.memberHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#modalBBtn{
+    margin-bottom: 10px;
+    width: 300px !important;
+}
+
+#deleteTeamDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#deleteTeamDiv button {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+
+
